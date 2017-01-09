@@ -1,0 +1,118 @@
+
+body {
+	margin:0;
+}
+
+h1{  text-align:right;
+    color:white;
+}
+
+nav { 
+  background-color:rgba(0,0,0,0.3);
+  position:fixed;
+  width:100%;
+ 
+ }
+
+a {
+  line-height:90px;
+  text-decoration:none;
+  color:white;
+  font-size:20px;
+  padding-left:40px;
+} 
+
+a:hover{color:gray;
+}
+
+#my-name{
+  float:right;
+  padding-right:2cm;
+  padding-top:0.8cm;
+  color:white;
+  font-size:20px;
+}  
+
+#my-pic{
+  text-align:center;
+  padding-top:5em;
+ }
+
+.thin-border{ 
+    border-color:white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:50%;
+    width:250px;
+    height:300px;
+   }
+
+section {
+  width: 100%;
+  background-size:cover;
+  height: 100vh;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  }
+
+.content {
+  height:60vh; 
+}
+
+.textblock { 
+  padding-top:0.5cm;
+  font-size:20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+   }
+
+#html-image{ padding-top:2cm;
+padding-left:3cm;
+}
+
+#css-image{width:200px;
+  height:150px;
+}
+
+#my-tribute-page-img{
+  padding-top:1.5cm;
+  width:300px;
+  height:200px;
+}
+
+.icons{
+ width:100px;
+}
+  
+
+#icons{ 
+  text-align:center;
+  padding-top:11cm;
+ }
+
+.one-photo {
+  background-image:url("https://farm6.staticflickr.com/5560/30845668326_792a40eded_z.jpg");heiht:100vh;
+ }
+
+
+#overlay {
+  heiht:100vh;
+  width:100%;
+  position:absolute;
+  background-color:rgba(0,0,0,0.3);
+  min-height: 100%;
+ }
+  
+.two-photo {
+   background-image:url("https://farm6.staticflickr.com/5705/30845668136_12f669ab96_z.jpg");
+  heiht:100vh;
+ } 
+
+.three-photo {background-image:url("https://farm6.staticflickr.com/5526/30845255906_aa5732eddc_z.jpg");
+   heiht:100vh;
+ }
+
+
+.four-photo {background-image:url("https://farm6.staticflickr.com/5806/30504759560_0938426266_z.jpg");
+}
